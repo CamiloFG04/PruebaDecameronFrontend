@@ -40,8 +40,8 @@ export default {
     const {loginUser} = useAuth()
 
     const user = ref({
-      email: 'camilo@gmail.com',
-      password: '1234qwerty'
+      email: null,
+      password: null
     })
 
     return {
